@@ -13,6 +13,8 @@ require (
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 )
 
+require github.com/caarlos0/env/v6 v6.9.1 // indirect
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
