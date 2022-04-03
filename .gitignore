@@ -6,3 +6,4 @@ output/*
 /test/node*/data/*
 /test/node*/commitlog/*
 dist/
+config/*
