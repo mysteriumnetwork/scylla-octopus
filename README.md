@@ -1,5 +1,11 @@
 ## scylla-octopus: backup and maintenance utility for scylladb
 
+MYSTERIUM IMPORTANT_NOTE: "Cron-Runner" can be used for quick actions, as there's already a built docker image with following name, such as:
+```
+docker run --rm kolesa-team/scylla-octopus:v1.0.0 healthcheck (this command doesn't hurt)
+docker run --rm kolesa-team/scylla-octopus:v1.0.0 db repair 
+```
+
 Scylla-octopus attempts to reproduce some functionality of [Scylla Manager](https://docs.scylladb.com/operating-scylla/manager/) (which is not free) and [Medusa for Apache Cassandra](https://github.com/thelastpickle/cassandra-medusa) (which is not compatible with Scylla).
 
 [![Actions Status](https://github.com/kolesa-team/scylla-octopus/workflows/test/badge.svg)](https://github.com/kolesa-team/scylla-octopus/actions)
